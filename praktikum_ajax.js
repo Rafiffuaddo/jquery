@@ -15,7 +15,7 @@ $(function () {
                 $.each(data, function(i, item) {
                     data_html +=
                     '<br>' +
-                    '<img src="' + item.thumbnailUrl + '" alt="">' +
+                    '<img src="' + item.thumbnailurl + '" alt="">' +
                     '<br>' +
                     '<h1>' + item.id +'. ' + item.title + '</h1>'
                 });
