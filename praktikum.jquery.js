@@ -1,0 +1,32 @@
+document.getElementById('nama').innerHTML='Rafif Fuaddoshofha';
+$('#nim').html('20190140129');
+$(function() {
+    console.log("Hello");
+});
+$('#hide').on("click",function(){
+    $("#nama").hide();
+});
+$('#show').on("click",function(){
+    $("#nama").show();
+});
+$('#toogle').on("click",function(){
+    $("#nama").toogle();
+});
+$('#fadein').on("click",function(){
+    $("#tanggal").fadein();
+});
+$('#fadeout').on("click",function(){
+    $("#tanggal").fadeout();
+});
+$('#fadetoogle').on("click",function(){
+    $("#tanggal").fadeToogle();
+});
+$('#slideup').on("click",function(){
+    $("#img").slideUp();
+});
+$('#slidedown').on("click",function(){
+    $("#img").slideDown();
+});
+$('#slideToggle').on("click",function(){
+    $("#img").slideToogle();
+});
